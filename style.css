@@ -1,17 +1,15 @@
-/* Main styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   background: #fff;
 }
 
-/* Header */
-header {
+header{
   background: #444;
   height: 100px;
   margin-bottom: 30px;
 }
 
-nav {
+nav{
   width: 960px;
   margin: 0 auto;
   padding-top: 15px;
@@ -19,12 +17,12 @@ nav {
   align-items: center;
 }
 
-nav ul {
+nav ul{
   display: flex;
   margin-left: 30px;
 }
 
-nav ul li {
+nav ul li{
   margin-right: 60px;
 }
 
@@ -33,13 +31,11 @@ nav ul li a {
   text-decoration: none;
 }
 
-/* Main content */
 main {
   width: 960px;
-  margin: 0 auto;
+  margin: 0 auto; 
 }
 
-/* Hero section */
 .hero {
   margin-bottom: 30px;
 }
@@ -48,38 +44,37 @@ main {
   display: block;
 }
 
-/* Sub banner */
 .sub-banner {
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
 }
 
-/* Featured section */
 .featured {
   display: flex;
   gap: 30px;
   margin-bottom: 30px;
 }
 
-.featured-content {
-  width: 450px;
+.featured-content{
+width: 450px;
 }
 
 .featured-content h2 {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 10px;
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 10px;
 }
 
 .featured-content p {
-  height: 320px;
-  margin-bottom: 10px;
-  overflow: hidden;
-  line-height: 1.4;
+height: 320px;
+margin-bottom: 10px;
+overflow: hidden;
+line-height: 1.4;
+overflow: scroll;
 }
 
-.featured-content button {
+.featured-content button{
   background: #000;
   color: #fff;
   padding: 10px 30px;
@@ -89,8 +84,8 @@ main {
   transition: background 0.3s ease;
 }
 
-/* Footer */
 footer {
   background: #444;
   height: 150px;
 }
+
